@@ -15,6 +15,7 @@ jobs:
         include:
           - username: ZJU_USERNAME
             password: ZJU_PASSWORD
+            cookie_eai_sess: ZJU_COOKIE
             dingtalk_token: DINGTALK_TOKEN
     steps:
       - name: 打卡
